@@ -35,7 +35,7 @@ header {
 }
 
 nav {
-    height: 85px;
+    height: 90px;
     margin-bottom: 15px;
     padding-top: 25px;
 }
@@ -54,8 +54,9 @@ article {
     color: #ebebeb;
     background: #777;
     height: 200px;
-    margin-top: 20px;
-    padding: 5px;
+    margin: 12px -9px;
+    position: absolute;
+    width: 470px; 
 }
 
 h1, p {
@@ -66,6 +67,7 @@ h1, p {
 section {
     width: 495px;
     float: left;
+    position: relative;
 }
 
 .heading-box {
@@ -73,20 +75,24 @@ section {
     font-weight: bold;
     color: #777;
     background: #ebebeb;
-    width: 410px;
+    width: 430px;
     height: 55px;
-    margin: 0 auto;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    position: absolute;
 }
 
 p {
-    margin-top: 10px;
-    margin-left: 17px;
-    width: 410px;
+    width: 430px;
     height: 55px;
     align-content: center;
+    margin-top: 75px;
+    margin-left: 20px;
     padding-top: 15px;
+    position: absolute;
 }
 
 footer {
